@@ -1,0 +1,25 @@
+From d99f65400655f532f4d070c85d25b335bfaeb1df Mon Sep 17 00:00:00 2001
+From: TheAttila <Damsem39@gmail.com>
+Date: Sun, 11 Dec 2022 23:17:22 -0300
+Subject: [PATCH] use custom build info
+
+---
+ config/version.mk | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/config/version.mk b/config/version.mk
+index 265889c..149258e 100644
+--- a/config/version.mk
++++ b/config/version.mk
+@@ -8,7 +8,7 @@ CUSTOM_BUILD_DATE := $(CUSTOM_DATE_YEAR)$(CUSTOM_DATE_MONTH)$(CUSTOM_DATE_DAY)-$
+ 
+ CUSTOM_PLATFORM_VERSION := 13.0
+ 
+-CUSTOM_VERSION := PixelOS_$(CUSTOM_BUILD)-$(CUSTOM_PLATFORM_VERSION)-$(CUSTOM_BUILD_DATE)
++CUSTOM_VERSION := PixelOS_13-Gsi-Uwun't
+ CUSTOM_VERSION_PROP := thirteen
+ 
+ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+-- 
+2.38.1
+
